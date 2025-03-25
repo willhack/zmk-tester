@@ -15,6 +15,8 @@
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick-tap-ms = <200>; };
 
+
+
 / {
     behaviors {
         hm: homerow_mods {
@@ -87,7 +89,7 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-                &kp LBRC   &kp LS(N7) &kp LS(N8)  &kp LS(N9)      &kp RBRC      &trans          &trans         &trans      &trans     &trans
+                &kp LBRC   &kp LS(N7) &kp LS(N8)  &kp LS(N9)      &kp RBRC      &trans          &trans         &trans      &trans     &studio_unlock
                 &kp COLON  &kp LS(N4) &kp LS(N5)  &kp LS(N6)      &kp PLUS      &trans          &trans         &trans      &trans     &trans
                            &kp LS(N1) &kp LS(N2)  &kp LS(N3)                                    &trans         &trans      &trans
                                                   &kp LS(N0)      &kp UNDER     &trans          &trans
